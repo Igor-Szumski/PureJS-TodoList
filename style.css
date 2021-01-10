@@ -1,0 +1,91 @@
+body {
+    color: white;
+    background: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+#mainStatus {}
+
+#mainStatus>input {
+    margin: 0px 5px 0px 0px;
+    height: 50px;
+    width: 50px
+}
+
+#mainInput>input {
+    border-width: 0;
+    height: 50px;
+    width: 395px;
+    font: 30px bold;
+    font-family: sans-serif;
+}
+
+#mainDate {}
+
+#mainDate>input {
+    border-width: 0px;
+    height: 50px;
+}
+
+#addBtn {
+    margin: 0;
+    border: 0;
+    height: 50px;
+    width: 50px;
+}
+
+
+/* TODO LIST */
+
+#list {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 5 auto;
+}
+
+.desc {
+    border-width: 0;
+    padding: 10px;
+    min-height: 30px;
+    width: 410px;
+    background: #666;
+    font: 30px bold;
+    font-family: sans-serif;
+}
+
+.date {
+    border-width: 0px;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    background: #444;
+    padding: 10px;
+}
+
+.delBtn {
+    margin: 0px 0px 0px 5px;
+    height: 50px;
+    width: 50px
+}
+
+.btnCheck {
+    margin: 0px 5px 0px 0px;
+    height: 50px;
+    width: 50px
+}

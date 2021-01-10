@@ -1,0 +1,35 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo list</title>
+</head>
+
+<body>
+    <main class="container">
+        <span id="mainStatus"><input type="checkbox" class="isCompleate"></span>
+        <span id="mainInput"><input class="isDesc" placeholder="Walk my dog"></span>
+        <span id="mainDate"><input type="date" class="isDate"></span>
+        <button id="addBtn">Add</button>
+    </main>
+    <hr>
+
+    <div class="blueprints" style="display: none;">
+        <li class="list-item">
+            <input type="checkbox" class="btnCheck">
+            <span class="desc"></span>
+            <div class="date"></div>
+            <button class="delBtn">X</button>
+        </li>
+    </div>
+
+    <ul id="list">
+
+    </ul>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
