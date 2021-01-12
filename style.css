@@ -21,12 +21,10 @@ body {
 #mainInput>input {
     border-width: 0;
     height: 50px;
-    width: 395px;
+    width: 445px;
     font: 30px bold;
     font-family: sans-serif;
 }
-
-#mainDate {}
 
 #mainDate>input {
     border-width: 0px;

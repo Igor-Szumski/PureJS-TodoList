@@ -1,8 +1,17 @@
+// Submit on enter key
+const body = document.querySelector("#test");
+body.addEventListener('keypress', function() {
+    if (event.code === 'Enter') {
+        event.preventDefault();
+        createEntry()
+    }
+})
+
 // "Add" button functionality
-const addBtn = document.querySelector("#addBtn");
-addBtn.addEventListener("click", function() {
-    createEntry()
-});
+//const addBtn = document.querySelector("#addBtn");
+//addBtn.addEventListener("click", function() {
+//    createEntry()
+//});
 
 // Entire Logic
 function createEntry() {
@@ -26,4 +35,9 @@ function createEntry() {
 
     // display coppied node in the window
     list.appendChild(nodecoppy);
+
+    // clear input
+    desc.value = "";
+    date.value = "";
+    btncheck.checked = 0;
 }
